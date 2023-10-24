@@ -1,0 +1,37 @@
+h2{
+    font-size: 30px;color: #0A3A40;
+}
+* {
+    /* whatever we rite here gets applied to whole page * is a niversal selector
+    it means selecting all tags of page individually like h1,2,div,p....*/
+   
+}
+div{
+    /* background-color: red; */
+}
+body{
+    /* its a type selector whatever isnide it gets selected as a whole*/
+    background-color: tan;
+}
+header{
+ background-color: rgb(215, 178, 126);
+}
+.mid-text {
+     font-weight: bolder;
+     font-size: medium;
+}
+#head-text {
+    text-decoration-line: underline;
+text-decoration-style: double;
+}
+ul>li{
+    /* child combinator (>) is placed between two CSS selectors.
+     It matches only those elements matched by the second selector that are the direct children of elements matched by the first. */
+    font-style: italic;
+}
+a:hover{
+    background-color: tomato;
+}
+a:visited{
+    text-decoration: dashed underline overline;
+}
