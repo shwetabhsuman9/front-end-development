@@ -1,0 +1,34 @@
+/* flex-direction is defined as main axis  , suppose you r writing display:flex & flex-direction:row the our
+main-axis is row & cross-axis as column and same vice-versa */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+
+}
+
+#parent {
+    border: solid red 5px;
+    display: flex; 
+    flex-flow: row wrap;
+    height: 500px;
+    /*  display: flex;  this property enables flexbox model with flex-direction as row & flex-wrap as nowrap */
+    justify-content: space-evenly; /*to arrange lements along main-axis*/
+
+    /* to arrange elements along cross-axis */
+    align-items: center;
+}
+#parent div {
+    /* styles will be applied to all the div children of the parent */
+    border: solid blue 3px;
+    padding: 20px;
+    background-color: bisque;
+    min-width: 100px;
+    max-width: 300px;
+    max-height: 80px
+    /* when we give max-width & min-width the content takes the max & min-value and adjusts accordingly */
+}
