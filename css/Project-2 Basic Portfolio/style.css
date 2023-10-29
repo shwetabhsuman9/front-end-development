@@ -1,0 +1,23 @@
+:root{
+/* Declaring variables for future use , they are declared in html tags */
+    --teal :#031634;
+    --cobalt : #033649;
+    --turquoise:#066464;
+    --beige :#CEB280;
+    --gold: #EADDCC;
+}
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+body{
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-color: var(--teal); /*assigning background color to varial=ble declared above "taupe" */
+}
