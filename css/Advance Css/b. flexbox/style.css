@@ -17,10 +17,11 @@ html {
     flex-flow: row wrap;
     height: 500px;
     /*  display: flex;  this property enables flexbox model with flex-direction as row & flex-wrap as nowrap */
-    justify-content: space-evenly; /*to arrange lements along main-axis*/
+    justify-content:flex-start; /*to arrange lements along main-axis*/
 
     /* to arrange elements along cross-axis */
     align-items: center;
+    align-content:start;
 }
 #parent div {
     /* styles will be applied to all the div children of the parent */
@@ -28,7 +29,10 @@ html {
     padding: 20px;
     background-color: bisque;
     min-width: 100px;
-    max-width: 300px;
-    max-height: 80px
+    /* max-width: 300px; */
+    max-height: 100px
     /* when we give max-width & min-width the content takes the max & min-value and adjusts accordingly */
+}
+#child1{
+    flex-basis: 100%;
 }
