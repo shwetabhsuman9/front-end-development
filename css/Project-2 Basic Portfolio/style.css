@@ -21,3 +21,34 @@ body{
     padding: 0;
     background-color: var(--teal); /*assigning background color to varial=ble declared above "taupe" */
 }
+h1,h2,h3,h4,h5,h6{
+margin:0
+}
+#intro{
+    padding-bottom: 5rem;
+}
+#intro p{
+font-size: 1.5rem;
+line-height: 1.5;
+}
+.name span{
+    display: block;
+    color: var(--gold);
+    font-size: 4rem;
+}
+#intro h2{
+    font-size: 3rem;
+    font-weight: normal;
+}
+#experience ul{
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+}
+#experience li{
+    list-style-type: none;
+    padding: 1rem;
+}
+#experience a{
+    color: white;
+}
