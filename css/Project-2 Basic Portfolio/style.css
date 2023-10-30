@@ -1,54 +1,122 @@
-:root{
-/* Declaring variables for future use , they are declared in html tags */
-    --teal :#031634;
-    --cobalt : #033649;
-    --turquoise:#066464;
-    --beige :#CEB280;
+:root {
+    --teal: #031634;
+    --cobalt: #033649;
+    --turquoise: #066464;
+    --beige: #CEB280;
     --gold: #EADDCC;
 }
 html {
     box-sizing: border-box;
 }
 
-*,
-*:after,
-*:before {
+*, *::after, *::before {
     box-sizing: inherit;
 }
-body{
-    color: white;
+
+body {
     margin: 0;
     padding: 0;
-    background-color: var(--teal); /*assigning background color to varial=ble declared above "taupe" */
+    color: white;
+    background-color: var(--teal);
 }
-h1,h2,h3,h4,h5,h6{
-margin:0
+
+.section-turquoise {
+    background-color: var(--turquoise);
 }
-#intro{
-    padding-bottom: 5rem;
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
 }
+
+#intro {
+    padding: 4rem 1rem 5rem 1rem; /* TRBL */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 #intro p{
-font-size: 1.5rem;
-line-height: 1.5;
+    font-size: 1.5rem;
+    line-height: 1.5;
 }
-.name span{
-    display: block;
-    color: var(--gold);
-    font-size: 4rem;
-}
-#intro h2{
+
+
+
+#intro h2 {
     font-size: 3rem;
     font-weight: normal;
 }
-#experience ul{
+
+#experience ul {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+
+}
+
+#experience li {
+   list-style-type: none;
+   padding: 1rem;
+}
+
+#experience a {
+    color: white;
+}
+
+#hire {
+    background-color: var(--turquoise);
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+#hire p:last-child {
+    margin-top: 3rem;;
+}
+
+nav {
+    font-size: 80%;
+    padding: 1rem;
+    /* background-color: var(--cobalt); */
+}
+
+nav ul {
+    list-style-type: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
     font-size: 1.2rem;
 }
-#experience li{
-    list-style-type: none;
-    padding: 1rem;
+
+nav a:hover {
+    color: var(--beige);
+    text-decoration: underline;
+    font-size: 1.2rem;
 }
-#experience a{
+
+nav li:first-child {
+    flex-grow: 1; 
+
+    font-size: 1.5rem;
+    margin-left: 3rem;
+}
+
+.button {
+    background-color: orangered;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.button:hover {
     color: white;
+    background: linear-gradient(145deg, rgba(247,106,82,1) 26%, rgba(222,120,66,1) 36%, rgba(240,86,71,1) 47%);
 }
