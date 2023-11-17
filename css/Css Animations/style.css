@@ -39,13 +39,13 @@ html {
         background-color: blue; */
     }
     50% {
-        /* background-color: green; */
+        background-color: green;
         transform: translateX(500px);
     }
     100% {
         transform: translateX(-500px);
-        /* transform: rotate(180deg);
-        background-color: red; */
+        /* transform: rotate(180deg); */
+        /* background-color: red; */
     }
 }
 
