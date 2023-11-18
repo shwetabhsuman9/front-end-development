@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+.loader1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* background-color: red; */
+   height: 5rem;
+}
+.loader1 > div {
+border: 5px solid red;
+width: 4rem;
+height: 4rem;
+border-top: 5px solid #f0eeeb;
+border-radius: 50%;
+animation: spinner1 1s linear infinite;
+animation-direction: alternate;
+}
+
+@keyframes spinner1 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.loader2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* background-color: red; */
+   height: 5rem;
+}
+.loader2 > div {
+    border: 5px solid blue;
+    width: 4rem;
+    height: 4rem;
+    border-top: 5px solid #f0eeeb;
+    border-bottom:5px solid #f0eeeb ;
+    border-radius: 50%;
+    animation: spinner2 1s linear infinite;
+   
+    }
+    @keyframes spinner2 {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }

@@ -17,6 +17,7 @@ html {
     height: 100px;
     background-color: red;
     border-radius: 50px;
+    
 }
 
 .moving {
@@ -34,16 +35,16 @@ html {
 /* Keyframse help us to set the state for (from - to) for animation */
 @keyframes rotator {
     0% {
-        transform: translateX(-500px);
+        transform: translateX(-550px);
         /* transform: rotate(0);
         background-color: blue; */
     }
     50% {
         background-color: green;
-        transform: translateX(500px);
+        transform: translateX(550px);
     }
     100% {
-        transform: translateX(-500px);
+        transform: translateX(-550px);
         /* transform: rotate(180deg); */
         /* background-color: red; */
     }
