@@ -5,54 +5,100 @@ html {
 *, *::after, *::before {
     box-sizing: inherit;
 }
-.loader1{
+.spacer{
+    height: 128px;
+}
+.loader1 {
     display: flex;
     justify-content: center;
-    align-content: center;
-    /* background-color: red; */
-   height: 5rem;
+    align-items: center;
+    height: 5rem;
+    
 }
+
 .loader1 > div {
-border: 5px solid red;
-width: 4rem;
-height: 4rem;
-border-top: 5px solid #f0eeeb;
-border-radius: 50%;
-animation: spinner1 1s linear infinite;
-animation-direction: alternate;
+    border: 5px solid red; 
+    width: 4rem;
+    height: 4rem;
+    border-top: 5px solid #f0eeeb;
+    border-radius: 50%;
+    animation: spinner1 2s linear infinite;
+    animation-direction: alternate;
 }
 
 @keyframes spinner1 {
     from {
-        transform: rotate(0deg);
+        transform: rotate(0);
     }
+
     to {
         transform: rotate(360deg);
     }
 }
 
-.loader2{
+.loader2 {
     display: flex;
     justify-content: center;
-    align-content: center;
-    /* background-color: red; */
-   height: 5rem;
+    align-items: center;
+    height: 5rem;
 }
+
 .loader2 > div {
-    border: 5px solid blue;
+    border: 5px solid red; 
     width: 4rem;
     height: 4rem;
     border-top: 5px solid #f0eeeb;
-    border-bottom:5px solid #f0eeeb ;
+    border-bottom: 5px solid #f0eeeb;
     border-radius: 50%;
-    animation: spinner2 1s linear infinite;
-   
+    animation: spinner2 2s linear infinite;
+}
+
+@keyframes spinner2 {
+    from {
+        transform: rotate(0);
     }
-    @keyframes spinner2 {
-        from {
-            transform: rotate(0deg);
-        }
-        to {
-            transform: rotate(360deg);
-        }
+
+    to {
+        transform: rotate(360deg);
     }
+}
+
+.loader3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    height: 5rem;
+}
+
+.loader3 div {
+    background-color: red;
+    height: 100px;
+    width: 30px;
+}
+.loader3 .first {
+    animation: expander 0.8s linear infinite;
+    animation-delay: 0.4s;
+}
+.loader3 .second {
+    animation: expander 0.8s linear infinite;
+    animation-delay: 0.6s;
+}
+.loader3 .third {
+    animation: expander 0.8s linear infinite;
+    animation-delay: 0;
+}
+
+@keyframes expander {
+    0% {
+        height: 100px;
+    }
+
+    50% {
+        height: 150px;
+    }
+
+    100% {
+        height: 100px;
+    }
+}
