@@ -11,7 +11,7 @@ if (a + b > c && b + c > a && a + c > b) {
 
 //check if a triangle is equilateral,Isoceles or Scalene
 
-let x = 2;
+let x = 22;
 let y=22;
 let z=21;
 
