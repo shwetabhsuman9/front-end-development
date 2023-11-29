@@ -16,7 +16,7 @@ let y=22;
 let z=21;
 
 if(x==y && y==z){
-    console.log("Equilateral Triangle")
+    console.log("Equilateral Triangle");
 }
 else if(x==y || y==z || z==x){
     console.log("Isoceles triangle");
