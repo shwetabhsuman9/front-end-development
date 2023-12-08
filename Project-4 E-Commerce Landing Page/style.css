@@ -18,7 +18,7 @@
     padding: 2rem;
     height: 250px;
 }
-/* media queries  */
+/*  media queries  */
 @media (max-width:600px) {
    .product-card{
     max-width: 300px;
