@@ -1,0 +1,64 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+body{
+    margin:0;
+    padding:0;
+}
+.first-image,.second-image,.third-image,.fourth-image{
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+.first-image{
+   background-image: url(../img/city6.jpg);
+   min-height: 400px;
+   opacity: 0.8;
+}
+.second-image{
+    background-image: url(../img/city5.jpg);
+    min-height: 400px;
+}
+.third-image{
+background-image: url(../img/city7.webp);
+min-height: 400px;
+}
+.fourth-image{
+    background-image: url(../img/city6.jpg);
+    min-height: 400px;
+    opacity: 0.8;
+}
+section{
+text-align: center;
+padding: 3rem 5rem;
+}
+.section-light{
+    background-color: #f4f4f4;
+    color: #0f0f0f;
+}
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
+.image{
+    position: relative;
+}
+.image div{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 8px;
+}
+.first-image span{
+    background-color: #0f0f0f;
+    color:white;
+    padding: 1rem;
+}
