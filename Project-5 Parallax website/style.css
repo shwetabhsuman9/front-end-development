@@ -60,8 +60,10 @@ padding: 3rem 5rem;
 .first-image span{
     background-color: #0f0f0f;
     color:white;
-    padding: 1rem;
-}
+    padding: 1rem;}
+
+/* media-queries */
+
 @media (max-width:406px) {
     .first-image span{
         background-color: #0f0f0f;
