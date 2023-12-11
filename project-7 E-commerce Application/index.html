@@ -10,14 +10,38 @@
 </head>
 <body>
 
-    <div class="homePage">
+    <nav class="homePage">
         <!-- header -->
 
         <div id="header">
             <div class="container">
                 <div class="row">
-                    
+                    <div class="header-wrapper d-flex justify-content-between">
+                        <!-- this is header with justify content as between -->
+                        <div class="logo d-inline-block">
+                            <a href="index.html" class="text-decoration-none">Shop Cart</a>
+                        </div>
+                        <div class="user-actions d-flex flex-row">
+                            <a href="cart.html" class="text-decoration-none">Cart</a>
+                            <div class="user-intro" id="userIntro">Hi User</div>
+                        <div class="logout-btn" id="logoutBtn">Logout</div>
+                        </div>
+                        
+                    </div>
                 </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main-content -->
+    <div class="container">
+        <div class="row">
+            <h2 class="home-title text-center">Welcome to ShopCart</h2>
+            <div class="category-list d-flex justify-content-between align-items-center" id="categoryList">
+                <!-- to-do -->
+            </div>
+            <div class="category-title text-center">
+                Select a category to start shopping
             </div>
         </div>
     </div>
