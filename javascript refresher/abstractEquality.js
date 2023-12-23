@@ -12,5 +12,6 @@ console.log(obj1===obj2);
 console.log(obj1===obj3);
 console.log(obj1===obj1);
 
+// printing a string
 let x ={a:1};
 console.log(`my name is ${x}`);
