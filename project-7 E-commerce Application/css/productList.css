@@ -64,6 +64,7 @@ flex-basis: 80%;
 .product-list-box .product-item:nth-child(3n){
     margin-right: 0;
 }
+
 .product-list-box .product-item:hover{
     box-shadow:0px 4px 10px var(--light-gray);
     transition: box-shadow 0.15s linear 0s;
