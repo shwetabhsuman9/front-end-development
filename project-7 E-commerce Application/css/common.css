@@ -3,6 +3,10 @@
 --pale-blue : #2c3e50;
 --mid-gray:#999;
 --jean-blue:#3b5875;
+--light-blue :#95afc0;
+--sky-blue: #dff9fb;
+--dark-sky-blue: #c7ecee;
+--light-gray:#ccc;
 }
 html {
     box-sizing: border-box;
