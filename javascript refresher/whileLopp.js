@@ -3,4 +3,4 @@ while(i<=10){
     console.log(i);
     i++;
 }
-console.log('end of the program');
+ console.log('end of the program');
